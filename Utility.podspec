@@ -1,14 +1,6 @@
-#
-# Be sure to run `pod lib lint Utility.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = 'Utility'
-  s.version          = '0.2'
+  s.version          = '0.0.1'
   s.summary          = 'Utility Library'
   s.description      = 'An Utility library with common useful classes and extensions.'
 
@@ -20,8 +12,8 @@ Pod::Spec.new do |s|
 
   s.homepage         = 'https://sherden.io'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'piegandolfi@gmail.com' => 'info@sherden.io' }
-  s.source           = { :git => 'https://github.com/pietrogandolfi/utility.git', :tag => s.version.to_s }
+  s.author           = { 'Sherden' => 'info@sherden.io' }
+  s.source           = { :git => 'https://github.com/sherden-io/utility.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '14.0'
   s.swift_version = '5.0'
