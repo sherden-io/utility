@@ -1,0 +1,16 @@
+PODS:
+  - Utility (0.1.0)
+
+DEPENDENCIES:
+  - Utility (from `../`)
+
+EXTERNAL SOURCES:
+  Utility:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Utility: 99bca6694d84e26f14fb07cbeba4d138ce15165b
+
+PODFILE CHECKSUM: 7b74542b6aee00a901171e5f64f3d396e8032c07
+
+COCOAPODS: 1.10.0
